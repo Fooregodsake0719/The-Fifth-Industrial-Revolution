@@ -11,7 +11,8 @@ export interface GalleryItem {
   id: string;
   title: string;
   description: string;
-  imageUrl: string;
+  detailedText: string;
+  images: string[];
 }
 
 export interface DiaryEntry {
